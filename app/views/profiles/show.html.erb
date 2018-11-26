@@ -1,0 +1,11 @@
+<h1>Profiles#show</h1>
+<p>Find me in app/views/profiles/show.html.erb</p>
+
+
+<%= link_to "create profile", new_profile_path %>
+<hr>
+<%= profile.nickname %>
+<%= profile.age %>
+<%= image_tag @profile.avatar.url %> 
+
+
